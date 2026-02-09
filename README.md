@@ -19,16 +19,16 @@
 
 ## Índice
 
-- [Descrição do Projeto](#-descrição-do-projeto)
-- [Contexto](#-contexto)
-- [Funcionalidades](#-funcionalidades)
-- [Metas de Usabilidade](#-metas-de-usabilidade)
-- [Metas de Experiência do Usuário](#-metas-de-experiência-do-usuário)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Instruções de Execução](#-instruções-de-execução)
-- [Credenciais de Demonstração](#-credenciais-de-demonstração)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Autor](#-autor)
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Contexto](#contexto)
+- [Funcionalidades](#funcionalidades)
+- [Metas de Usabilidade](#metas-de-usabilidade)
+- [Metas de Experiência do Usuário](#metas-de-experiência-do-usuário)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instruções de Execução](#instruções-de-execução)
+- [Credenciais de Demonstração](#credenciais-de-demonstração)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Autor](#autor)
 
 ---
 
