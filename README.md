@@ -352,8 +352,8 @@ wildcard-login/
 | Arquivo | Linhas | Descrição |
 |---------|--------|-----------|
 | `index.html` | ~250 | Estrutura HTML semântica com elementos de acessibilidade |
-| `styles.css` | ~200 | Animações CSS, glassmorphism, parallax, responsividade |
-| `script.js` | ~350 | Validação, autenticação simulada, efeitos interativos |
+| `styles.css` | ~300 | Animações CSS, glassmorphism, parallax, responsividade |
+| `script.js` | ~500 | Validação, autenticação simulada, efeitos interativos |
 
 ---
 
