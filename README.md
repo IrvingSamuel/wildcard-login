@@ -34,7 +34,7 @@
 
 ## Descrição do Projeto
 
-Este projeto apresenta a interface de login do **Spaceflow**, um sistema fictício de gestão de espaços educacionais. A tela de login foi desenvolvida com foco nos princípios de **Interação Humano-Computador (IHC)**, priorizando uma experiência de usuário excepcional através de:
+Este projeto apresenta a interface de login do **Spaceflow**, um sistema experimental de gestão de espaços educacionais. A tela de login foi desenvolvida com foco nos princípios de **Interação Humano-Computador (IHC)**, priorizando uma experiência de usuário excepcional através de:
 
 - Design moderno com efeito **glassmorphism** (vidro fosco)
 - Efeitos visuais **parallax** e **3D** interativos
