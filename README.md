@@ -1,8 +1,8 @@
-# 🚀 Spaceflow Login System
+# 🚀 Sistema de Login SpaceFlow
 
 <div align="center">
 
-![Spaceflow Logo](assets/logo.png)
+<img src="assets/logo.png" alt="logo" width="100"/>
 
 **Sistema de Login com foco em Usabilidade e Experiência do Usuário**
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📋 Índice
+## Índice
 
 - [Descrição do Projeto](#-descrição-do-projeto)
 - [Contexto](#-contexto)
@@ -32,7 +32,7 @@
 
 ---
 
-## 📖 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto apresenta a interface de login do **Spaceflow**, um sistema fictício de gestão de espaços educacionais. A tela de login foi desenvolvida com foco nos princípios de **Interação Humano-Computador (IHC)**, priorizando uma experiência de usuário excepcional através de:
 
@@ -46,7 +46,7 @@ O sistema simula uma autenticação completa, demonstrando boas práticas de UX/
 
 ---
 
-## 🎯 Contexto
+## Contexto
 
 O **Spaceflow** é um sistema de gestão de espaços educacionais que permite:
 
@@ -58,7 +58,7 @@ A tela de login serve como porta de entrada para este ecossistema, sendo essenci
 
 ---
 
-## ⚡ Funcionalidades
+## Funcionalidades
 
 ### Requisitos Funcionais Implementados
 
@@ -71,19 +71,19 @@ A tela de login serve como porta de entrada para este ecossistema, sendo essenci
 
 ### Recursos Adicionais
 
-- 👁️ **Toggle de visibilidade da senha** - botão para mostrar/ocultar senha
-- 🔍 **Detecção inteligente de usuário** - indica quando o email é reconhecido
-- 🎨 **Efeitos parallax** - elementos de fundo respondem ao movimento do mouse
-- 📱 **Design responsivo** - funciona em desktop, tablet e mobile
-- ♿ **Acessibilidade** - suporte a navegação por teclado e leitores de tela
+- **Toggle de visibilidade da senha** - botão para mostrar/ocultar senha
+- **Detecção inteligente de usuário** - indica quando o email é reconhecido
+- **Efeitos parallax** - elementos de fundo respondem ao movimento do mouse
+- **Design responsivo** - funciona em desktop, tablet e mobile
+- **Acessibilidade** - suporte a navegação por teclado e leitores de tela
 
 ---
 
-## 🎯 Metas de Usabilidade
+## Metas de Usabilidade
 
 As cinco metas de usabilidade obrigatórias foram cuidadosamente aplicadas:
 
-### 1. 🧠 Fácil de Lembrar (Memorabilidade)
+### 1. Fácil de Lembrar (Memorabilidade)
 
 > *"O usuário deve conseguir usar o sistema novamente sem precisar reaprender"*
 
@@ -97,7 +97,7 @@ As cinco metas de usabilidade obrigatórias foram cuidadosamente aplicadas:
 
 ---
 
-### 2. 📚 Fácil de Entender (Aprendizabilidade)
+### 2. Fácil de Entender (Aprendizabilidade)
 
 > *"Novos usuários devem conseguir usar o sistema sem treinamento"*
 
@@ -112,7 +112,7 @@ As cinco metas de usabilidade obrigatórias foram cuidadosamente aplicadas:
 
 ---
 
-### 3. ✨ Útil (Utilidade)
+### 3. Útil (Utilidade)
 
 > *"O sistema deve cumprir seu propósito principal de forma eficiente"*
 
@@ -127,7 +127,7 @@ As cinco metas de usabilidade obrigatórias foram cuidadosamente aplicadas:
 
 ---
 
-### 4. 🔒 Seguro (Percepção de Segurança)
+### 4. Seguro (Percepção de Segurança)
 
 > *"O usuário deve sentir que seus dados estão protegidos"*
 
@@ -144,7 +144,7 @@ As cinco metas de usabilidade obrigatórias foram cuidadosamente aplicadas:
 
 ---
 
-### 5. ⚡ Eficiente
+### 5. Eficiente
 
 > *"Tarefas devem ser concluídas com mínimo esforço e tempo"*
 
@@ -163,11 +163,11 @@ As cinco metas de usabilidade obrigatórias foram cuidadosamente aplicadas:
 
 ---
 
-## 💫 Metas de Experiência do Usuário
+## Metas de Experiência do Usuário
 
 Foram implementadas **6 metas de experiência** para criar uma interação memorável:
 
-### 1. 🎨 Esteticamente Apreciável
+### 1. Esteticamente Apreciável
 
 > *"A interface deve ser visualmente atraente e agradável"*
 
@@ -183,7 +183,7 @@ Foram implementadas **6 metas de experiência** para criar uma interação memor
 
 ---
 
-### 2. 😊 Satisfatório
+### 2. Satisfatório
 
 > *"O usuário deve sentir satisfação ao completar tarefas"*
 
@@ -198,7 +198,7 @@ Foram implementadas **6 metas de experiência** para criar uma interação memor
 
 ---
 
-### 3. 🔥 Interessante
+### 3. Interessante
 
 > *"A interface deve capturar e manter a atenção do usuário"*
 
@@ -213,7 +213,7 @@ Foram implementadas **6 metas de experiência** para criar uma interação memor
 
 ---
 
-### 4. 💪 Motivador
+### 4. Motivador
 
 > *"O sistema deve encorajar o usuário a completar suas ações"*
 
@@ -228,7 +228,7 @@ Foram implementadas **6 metas de experiência** para criar uma interação memor
 
 ---
 
-### 5. 😌 Agradável
+### 5. Agradável
 
 > *"A interação deve ser prazerosa, não frustrante"*
 
@@ -244,7 +244,7 @@ Foram implementadas **6 metas de experiência** para criar uma interação memor
 
 ---
 
-### 6. 🏆 Compensador
+### 6. Compensador
 
 > *"O esforço investido deve valer a pena"*
 
@@ -259,7 +259,7 @@ Foram implementadas **6 metas de experiência** para criar uma interação memor
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Versão | Propósito |
 |------------|--------|-----------|
@@ -278,7 +278,7 @@ Foram implementadas **6 metas de experiência** para criar uma interação memor
 
 ---
 
-## 🚀 Instruções de Execução
+## Instruções de Execução
 
 ### Método 1: Abrir diretamente (Recomendado)
 
@@ -321,7 +321,7 @@ Depois acesse: `http://localhost:8000`
 
 ---
 
-## 🔑 Credenciais de Demonstração
+## Credenciais de Demonstração
 
 O sistema aceita as seguintes combinações de email/senha:
 
@@ -335,7 +335,7 @@ O sistema aceita as seguintes combinações de email/senha:
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 wildcard-login/
@@ -357,7 +357,7 @@ wildcard-login/
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Irving Samuel**
 
@@ -365,15 +365,13 @@ wildcard-login/
 
 ---
 
-## 📝 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos na disciplina de **Interação Humano-Computador**.
 
 ---
 
 <div align="center">
-
-**Desenvolvido com 💙 para IHC**
 
 *Spaceflow - Sistema de Gestão de Espaços Educacionais*
 
