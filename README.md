@@ -1,4 +1,4 @@
-# 🚀 Sistema de Login SpaceFlow
+# Sistema de Login SpaceFlow
 
 <div align="center">
 
