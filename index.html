@@ -17,14 +17,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="min-h-screen relative overflow-hidden font-['Figtree']">
+<body class="min-h-screen relative overflow-x-hidden overflow-y-auto font-['Figtree']">
     <!-- Background com gradient personalizado -->
-    <div class="absolute inset-0 bg-gradient-to-br" 
+    <div class="fixed inset-0 bg-gradient-to-br" 
          style="background: linear-gradient(135deg, #01113C 0%, #01A4A5 50%, #01113C 100%);">
     </div>
     
     <!-- Elementos decorativos de fundo com parallax -->
-    <div class="absolute inset-0" id="parallaxContainer">
+    <div class="fixed inset-0" id="parallaxContainer">
         <!-- Círculos decorativos - elementos maiores se movem menos -->
         <div class="absolute top-10 left-10 w-32 h-32 rounded-full parallax-element border-radius transition-transform duration-75 ease-out" 
              data-speed="0.02"
@@ -62,7 +62,7 @@
              style="background: #01A4A5; filter: blur(2px);"></div>
     </div>
     
-    <div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8 relative z-10">
+    <div class="min-h-screen flex flex-col justify-center py-12 px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="sm:mx-auto sm:w-full sm:max-w-md">
             <!-- Logo/Cabeçalho -->
             <div class="text-center">
