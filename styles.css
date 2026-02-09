@@ -1,0 +1,289 @@
+/* ================================
+   SPACEFLOW LOGIN - ESTILOS
+   Sistema de Gestão de Espaços Educacionais
+   ================================ */
+
+/* Reset e configurações base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    perspective: 1000px;
+    font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ================================
+   GLASSMORPHISM CARD
+   ================================ */
+.glassmorphism-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 
+        0 25px 50px -12px rgba(0, 0, 0, 0.25),
+        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    animation: float 6s ease-in-out infinite;
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+/* Animação de flutuação suave */
+@keyframes float {
+    0%, 100% { 
+        transform: perspective(1000px) translateY(0px) rotateX(0deg) rotateY(0deg);
+    }
+    50% { 
+        transform: perspective(1000px) translateY(-5px) rotateX(0.5deg) rotateY(0.3deg);
+    }
+}
+
+/* ================================
+   INPUTS E FORMULÁRIO
+   ================================ */
+.input-field {
+    transition: all 0.3s ease;
+}
+
+.input-field:focus {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #1f2937 !important;
+    box-shadow: 
+        0 0 0 3px rgba(1, 17, 60, 0.1),
+        0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.input-field:focus::placeholder {
+    color: #9ca3af;
+}
+
+.input-field.error {
+    border-color: rgba(239, 68, 68, 0.6) !important;
+    background: rgba(239, 68, 68, 0.1) !important;
+}
+
+.input-field.success {
+    border-color: rgba(34, 197, 94, 0.6) !important;
+}
+
+/* Estilo do botão de submit */
+#submitButton {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#submitButton:hover:not(:disabled) {
+    box-shadow: 
+        0 15px 35px rgba(1, 17, 60, 0.4),
+        0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#submitButton:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+/* Labels com estilo elegante */
+label {
+    font-weight: 600;
+    letter-spacing: 0.025em;
+}
+
+/* Spinner personalizado */
+.animate-spin {
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
+}
+
+/* ================================
+   ELEMENTOS PARALLAX
+   ================================ */
+.parallax-element {
+    will-change: transform;
+    transform-style: preserve-3d;
+    --parallax-x: 0px;
+    --parallax-y: 0px;
+    --parallax-scale: 1;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+/* Elementos menores - rotação rápida com mudança de opacidade */
+.parallax-element[data-speed="0.08"],
+.parallax-element[data-speed="0.12"],
+.parallax-element[data-speed="0.15"] {
+    animation: spin-fast 6s linear infinite, opacity-pulse 4s ease-in-out infinite;
+}
+
+/* Elementos médios - rotação média */
+.parallax-element[data-speed="0.03"],
+.parallax-element[data-speed="0.05"],
+.parallax-element[data-speed="0.025"] {
+    animation: spin-medium 10s linear infinite, opacity-wave 6s ease-in-out infinite;
+}
+
+/* Elementos maiores - rotação lenta */
+.parallax-element[data-speed="0.015"],
+.parallax-element[data-speed="0.02"] {
+    animation: spin-slow 15s linear infinite, opacity-breathe 8s ease-in-out infinite;
+}
+
+/* Elementos extras com rotação reversa */
+.parallax-element[data-speed="0.09"] {
+    animation: spin-reverse 8s linear infinite, opacity-fade 5s ease-in-out infinite;
+}
+
+/* ================================
+   KEYFRAMES - ROTAÇÕES
+   ================================ */
+@keyframes spin-fast {
+    from { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(0deg) scale(calc(1 * var(--parallax-scale))); }
+    to { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(360deg) scale(calc(1 * var(--parallax-scale))); }
+}
+
+@keyframes spin-medium {
+    from { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(0deg) scale(calc(1 * var(--parallax-scale))); }
+    to { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(360deg) scale(calc(1 * var(--parallax-scale))); }
+}
+
+@keyframes spin-slow {
+    from { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(0deg) scale(calc(1 * var(--parallax-scale))); }
+    to { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(360deg) scale(calc(1 * var(--parallax-scale))); }
+}
+
+@keyframes spin-reverse {
+    from { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(360deg) scale(calc(1 * var(--parallax-scale))); }
+    to { transform: translate3d(var(--parallax-x), var(--parallax-y), 0) rotate(0deg) scale(calc(1 * var(--parallax-scale))); }
+}
+
+/* ================================
+   KEYFRAMES - OPACIDADE
+   ================================ */
+@keyframes opacity-pulse {
+    0%, 100% { opacity: 0.15; }
+    25% { opacity: 0.35; }
+    50% { opacity: 0.25; }
+    75% { opacity: 0.45; }
+}
+
+@keyframes opacity-wave {
+    0%, 100% { opacity: 0.20; }
+    33% { opacity: 0.40; }
+    66% { opacity: 0.15; }
+}
+
+@keyframes opacity-breathe {
+    0%, 100% { opacity: 0.25; }
+    50% { opacity: 0.35; }
+}
+
+@keyframes opacity-fade {
+    0%, 100% { opacity: 0.30; }
+    20% { opacity: 0.10; }
+    40% { opacity: 0.35; }
+    60% { opacity: 0.20; }
+    80% { opacity: 0.40; }
+}
+
+/* ================================
+   ANIMAÇÕES MODAIS
+   ================================ */
+.success-icon {
+    animation: successPop 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes successPop {
+    0% { transform: scale(0); opacity: 0; }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Modal slide-in */
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.modal-active {
+    animation: modalSlideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* ================================
+   SHAKE ANIMATION (ERRO)
+   ================================ */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.shake {
+    animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+/* ================================
+   RESPONSIVIDADE
+   ================================ */
+@media (max-width: 640px) {
+    .glassmorphism-card {
+        margin: 0 16px;
+        padding: 24px 16px;
+    }
+    
+    /* Reduzir efeitos em mobile para performance */
+    .parallax-element {
+        animation-duration: 20s !important;
+    }
+}
+
+/* Preferência de movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+    .glassmorphism-card {
+        animation: none;
+    }
+    
+    .parallax-element {
+        animation: none !important;
+    }
+    
+    * {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
+
+/* ================================
+   ACESSIBILIDADE
+   ================================ */
+:focus-visible {
+    outline: 2px solid #01A4A5;
+    outline-offset: 2px;
+}
+
+/* Skip link (se necessário) */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #01113C;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
