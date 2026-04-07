@@ -4,7 +4,7 @@
 
 <img src="assets/logo.png" alt="logo" width="100"/>
 
-**Sistema de Login com foco em Usabilidade e Experiência do Usuário**
+**Sistema de Login inteligente com foco em Usabilidade e Experiência do Usuário**
 
 *Projeto desenvolvido para a disciplina de Interação Humano-Computador (IHC)*
 
